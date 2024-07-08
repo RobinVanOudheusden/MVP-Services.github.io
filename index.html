@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <title>MVP-Services</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#"><img src="images/mvpServicesLogo.png" alt=""></a></div>
+        <input type="checkbox" id="toggle" class="checkbox">
+        <label for="toggle" class="checkbox"><i class="fas fa-bars"></i></label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#aboutme">Over MVP-Services</a></li>
+          <li><a href="#projecten">Projecten</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div>
+      <img src="images/gear.png" class="background" alt="pik">
+    </div>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">Mark van Peer</p>
+          <h1 class="title">
+            <span>MVP</span>-Services
+          </h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <div class="action__btns">
+            <a href="#contact"><button class="github">Contact</button></a>
+            <a href=""><button class="portfolio">CV</button></a>
+          </div>
+        </div>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="images/image1.jpg" style="width:100%">
+            <div class="text">1 / 6</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="images/image2.jpg" style="width:100%">
+            <div class="text">2 / 6</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="images/image3.jpg" style="width:100%">
+            <div class="text">3 / 6</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="images/image4.jpg" style="width:100%">
+            <div class="text">4 / 6</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="images/image5.jpg" style="width:100%">
+            <div class="text">5 / 6</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="images/image6.jpg" style="width:100%">
+            <div class="text">6 / 6</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div id="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="about_me" id="aboutme">
+        <div class="main" id="about-me">
+            <div class="about-text">
+                <h2>Over MVP-Services</h2>
+                <h5>Installatie <span>Techniek</span></h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="" class="btn2">Download Mijn CV</a>
+            </div> 
+        </div>
+    </div>
+
+    <div class="class_projecten" id="projecten">
+      <div class="main" id="class-projecten">
+          <div class="projecten-text">
+              <h2>Projecten</h2>
+              <h5>Huidig <span>Project</span></h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <a href="http://localhost/Opdracht/MVP/projecten.php" target="_blank" class="btn2">Project Verleden</a>
+          </div> 
+      </div>
+  </div>
+
+    <footer id="contact">
+        <p>Contact</p>
+        <p>MVP-Services - Mark van Peer</p>
+        <p><i class="fa-solid fa-phone"></i> - Mobiel Nummer: +31 6 39874578</p>
+        <p><i class="fa-solid fa-location-dot"></i> - Adres: Sleeuwijk,</p>
+        <p><i class="fa-solid fa-envelope"></i> - E-mail Adres: info@mvp-services.nl</p>
+        <div class="social">
+            <a href="https://nl.linkedin.com/in/mark-van-peer-723b9945" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/markvanpeer/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/mark.vanpeer/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/31639874578" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <form>
+            <input type="text" id="name" placeholder="Voornaam" required>
+            <input type="email" id="email" placeholder="E-mail adres" required>
+            <input type="text" id="phone" placeholder="Telefoon nr." required>
+            <textarea id="message" rows="4" placeholder="Uw bericht"></textarea>
+            <button type="submit">Stuur</button>
+        </form>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </footer>
+    <div class="disclaimer">
+        <p>&copy; Copyright 2024 - MVP-Services&reg;. Alle rechten voorbehouden.</p>      
+    </div>
+  </body>
+</html>
