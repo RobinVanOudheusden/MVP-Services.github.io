@@ -60,9 +60,11 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #f0f0f0;
+  background-color: #dddddd;
   z-index: 99;
-  border: 1px solid #244c62;
+  border-right: 1px solid #244c62;
+  border-left: 1px solid #244c62;
+  border-top: 1px solid #244c62;
 }
 
 .nav__content {
